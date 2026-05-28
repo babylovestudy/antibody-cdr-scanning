@@ -3,6 +3,14 @@
     "name": "Trastuzumab (Herceptin)",
     "target": "HER2/neu",
     "cdrs": {
+      "h1": {
+        "sequence": "GFNIKDTYIH",
+        "n_mutations": 190
+      },
+      "h2": {
+        "sequence": "RIYPTNGYTRYADSVKG",
+        "n_mutations": 323
+      },
       "h3": {
         "sequence": "WGGDGFYAMDY",
         "n_mutations": 209,
@@ -13,6 +21,240 @@
           "enrichment": 0.5,
           "cdr_name": "h3"
         }
+      },
+      "l1": {
+        "sequence": "RASQDVNTAVAW",
+        "n_mutations": 228
+      },
+      "l2": {
+        "sequence": "SASFLYS",
+        "n_mutations": 133
+      },
+      "l3": {
+        "sequence": "QQHYTTPPT",
+        "n_mutations": 171
+      }
+    }
+  },
+  "Adalimumab (Humira)": {
+    "name": "Adalimumab (Humira)",
+    "target": "TNF-alpha",
+    "cdrs": {
+      "h1": {
+        "sequence": "DYAMH",
+        "n_mutations": 95
+      },
+      "h2": {
+        "sequence": "AITWNSGHIDYADSVEG",
+        "n_mutations": 323
+      },
+      "h3": {
+        "sequence": "VSYLSTASSLDY",
+        "n_mutations": 228,
+        "validation": {
+          "hotspot_avg_rank": 7.4,
+          "hotspot_avg_score": 0.16023471474647522,
+          "non_hotspot_avg_score": 0.17783500892775403,
+          "enrichment": 0.4,
+          "cdr_name": "h3"
+        }
+      },
+      "l1": {
+        "sequence": "RASQGIRNYLA",
+        "n_mutations": 209
+      },
+      "l2": {
+        "sequence": "AASTLQS",
+        "n_mutations": 133
+      },
+      "l3": {
+        "sequence": "QRYNRAPYT",
+        "n_mutations": 171
+      }
+    }
+  },
+  "Bevacizumab (Avastin)": {
+    "name": "Bevacizumab (Avastin)",
+    "target": "VEGF-A",
+    "cdrs": {
+      "h1": {
+        "sequence": "GYTFTNYGMN",
+        "n_mutations": 190
+      },
+      "h2": {
+        "sequence": "WINTYTGEPTYAADFKR",
+        "n_mutations": 323
+      },
+      "h3": {
+        "sequence": "YPYYYGTSHWYFDV",
+        "n_mutations": 266,
+        "validation": {
+          "hotspot_avg_rank": 5.5,
+          "hotspot_avg_score": 0.14323941866556802,
+          "non_hotspot_avg_score": 0.10604721680283546,
+          "enrichment": 0.6666666666666666,
+          "cdr_name": "h3"
+        }
+      },
+      "l1": {
+        "sequence": "RASQDISNYLN",
+        "n_mutations": 209
+      },
+      "l2": {
+        "sequence": "FTSSLHS",
+        "n_mutations": 133
+      },
+      "l3": {
+        "sequence": "QQYSTVPWT",
+        "n_mutations": 171
+      }
+    }
+  },
+  "Pembrolizumab (Keytruda)": {
+    "name": "Pembrolizumab (Keytruda)",
+    "target": "PD-1",
+    "cdrs": {
+      "h1": {
+        "sequence": "GYTFTNYYMY",
+        "n_mutations": 190
+      },
+      "h2": {
+        "sequence": "GINPSNGGTNFNEKFKN",
+        "n_mutations": 323
+      },
+      "h3": {
+        "sequence": "RHGYWYFDV",
+        "n_mutations": 171,
+        "validation": {
+          "hotspot_avg_rank": 5.0,
+          "hotspot_avg_score": 0.09531082749366761,
+          "non_hotspot_avg_score": 0.1029292732477188,
+          "enrichment": 0.6,
+          "cdr_name": "h3"
+        }
+      },
+      "l1": {
+        "sequence": "RASKGVSTSGYSYLH",
+        "n_mutations": 285
+      },
+      "l2": {
+        "sequence": "LASYLES",
+        "n_mutations": 133
+      },
+      "l3": {
+        "sequence": "QHSRDLPLT",
+        "n_mutations": 171
+      }
+    }
+  },
+  "Nivolumab (Opdivo)": {
+    "name": "Nivolumab (Opdivo)",
+    "target": "PD-1",
+    "cdrs": {
+      "h1": {
+        "sequence": "GITFSNSGMH",
+        "n_mutations": 190
+      },
+      "h2": {
+        "sequence": "VIWYDGSKRYYADSVKG",
+        "n_mutations": 323
+      },
+      "h3": {
+        "sequence": "DRFYGMDV",
+        "n_mutations": 152,
+        "validation": {
+          "hotspot_avg_rank": 4.25,
+          "hotspot_avg_score": 0.1616834610700607,
+          "non_hotspot_avg_score": 0.13473305702209473,
+          "enrichment": 0.5,
+          "cdr_name": "h3"
+        }
+      },
+      "l1": {
+        "sequence": "RASQSISSYLN",
+        "n_mutations": 209
+      },
+      "l2": {
+        "sequence": "AASSLQS",
+        "n_mutations": 133
+      },
+      "l3": {
+        "sequence": "QQSYSTPLT",
+        "n_mutations": 171
+      }
+    }
+  },
+  "Omalizumab (Xolair)": {
+    "name": "Omalizumab (Xolair)",
+    "target": "IgE",
+    "cdrs": {
+      "h1": {
+        "sequence": "GYSITSGYSWH",
+        "n_mutations": 209
+      },
+      "h2": {
+        "sequence": "SIHYSGDTNYNPSLKS",
+        "n_mutations": 304
+      },
+      "h3": {
+        "sequence": "GSHYFGHWHFAV",
+        "n_mutations": 228,
+        "validation": {
+          "hotspot_avg_rank": 5.0,
+          "hotspot_avg_score": 0.12748985648155214,
+          "non_hotspot_avg_score": 0.09747007659503391,
+          "enrichment": 0.6,
+          "cdr_name": "h3"
+        }
+      },
+      "l1": {
+        "sequence": "RASQSIGTNIH",
+        "n_mutations": 209
+      },
+      "l2": {
+        "sequence": "YASESIS",
+        "n_mutations": 133
+      },
+      "l3": {
+        "sequence": "QQSDSWPTT",
+        "n_mutations": 171
+      }
+    }
+  },
+  "Rituximab (Rituxan)": {
+    "name": "Rituximab (Rituxan)",
+    "target": "CD20",
+    "cdrs": {
+      "h1": {
+        "sequence": "GYTFTSYNMH",
+        "n_mutations": 190
+      },
+      "h2": {
+        "sequence": "AIYPGNGDTSYNQKFKG",
+        "n_mutations": 323
+      },
+      "h3": {
+        "sequence": "VVYYSNSYWYFDV",
+        "n_mutations": 247,
+        "validation": {
+          "hotspot_avg_rank": 7.0,
+          "hotspot_avg_score": 0.12829064488410952,
+          "non_hotspot_avg_score": 0.11620169654488563,
+          "enrichment": 0.2,
+          "cdr_name": "h3"
+        }
+      },
+      "l1": {
+        "sequence": "RASSSVSYIH",
+        "n_mutations": 190
+      },
+      "l2": {
+        "sequence": "ATSNLAS",
+        "n_mutations": 133
+      },
+      "l3": {
+        "sequence": "QQWTSNPPT",
+        "n_mutations": 171
       }
     }
   }

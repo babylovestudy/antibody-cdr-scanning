@@ -1,0 +1,69 @@
+[
+  {
+    "step": 1,
+    "action": "Analyzing research goal",
+    "data": {
+      "goal": "Find antimicrobial peptides that are non-hemolytic and safe for therapeutic development. Prioritize candidates with high antibacterial activity and low toxicity risk.",
+      "parsed_intent": {
+        "prefer_amp": true,
+        "penalize_hemolytic": true,
+        "prefer_cpp": false,
+        "domain": "therapeutic"
+      }
+    }
+  },
+  {
+    "step": 2,
+    "action": "Searching peptide database",
+    "data": {
+      "query": "Find antimicrobial peptides that are non-hemolytic and safe for therapeutic development. Prioritize candidates with high antibacterial activity and low toxicity risk.",
+      "n_results": 16,
+      "top_hits": [
+        "buforin_2",
+        "magainin_2",
+        "cecropin_A",
+        "LL37",
+        "melittin"
+      ]
+    }
+  },
+  {
+    "step": 3,
+    "action": "Predicting molecular properties",
+    "data": {
+      "model": "ESM-2 heuristic (AA composition-based)",
+      "n_predictions": 16,
+      "avg_amp": 0.708,
+      "avg_hem": 0.635
+    }
+  },
+  {
+    "step": 4,
+    "action": "Ranking candidates",
+    "data": {
+      "criteria": {
+        "prefer_amp": true,
+        "penalize_hemolytic": true,
+        "prefer_cpp": false
+      },
+      "top_candidate": "R9",
+      "top_score": 0.75,
+      "n_low_risk": 3,
+      "n_high_risk": 0
+    }
+  },
+  {
+    "step": 5,
+    "action": "Generating discovery report",
+    "data": {
+      "report_sections": [
+        "goal",
+        "summary",
+        "candidates",
+        "recommendations",
+        "next_steps"
+      ],
+      "timestamp": "2026-05-29T00:42:31.303965"
+    }
+  }
+]

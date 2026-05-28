@@ -1,0 +1,69 @@
+[
+  {
+    "step": 1,
+    "action": "Analyzing research goal",
+    "data": {
+      "goal": "Find cell-penetrating peptides that can be used for drug delivery. The peptides should be able to cross cell membranes efficiently with minimal toxicity.",
+      "parsed_intent": {
+        "prefer_amp": false,
+        "penalize_hemolytic": false,
+        "prefer_cpp": true,
+        "domain": "therapeutic"
+      }
+    }
+  },
+  {
+    "step": 2,
+    "action": "Searching peptide database",
+    "data": {
+      "query": "Find cell-penetrating peptides that can be used for drug delivery. The peptides should be able to cross cell membranes efficiently with minimal toxicity.",
+      "n_results": 17,
+      "top_hits": [
+        "buforin_2",
+        "magainin_2",
+        "cecropin_A",
+        "LL37",
+        "melittin"
+      ]
+    }
+  },
+  {
+    "step": 3,
+    "action": "Predicting molecular properties",
+    "data": {
+      "model": "ESM-2 heuristic (AA composition-based)",
+      "n_predictions": 17,
+      "avg_amp": 0.712,
+      "avg_hem": 0.65
+    }
+  },
+  {
+    "step": 4,
+    "action": "Ranking candidates",
+    "data": {
+      "criteria": {
+        "prefer_amp": false,
+        "penalize_hemolytic": false,
+        "prefer_cpp": true
+      },
+      "top_candidate": "R9",
+      "top_score": 0.7,
+      "n_low_risk": 3,
+      "n_high_risk": 6
+    }
+  },
+  {
+    "step": 5,
+    "action": "Generating discovery report",
+    "data": {
+      "report_sections": [
+        "goal",
+        "summary",
+        "candidates",
+        "recommendations",
+        "next_steps"
+      ],
+      "timestamp": "2026-05-29T00:42:31.307967"
+    }
+  }
+]
