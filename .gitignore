@@ -1,0 +1,6 @@
+GUIDE_CN.md
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+outputs/checkpoints/

@@ -1,0 +1,19 @@
+{
+  "Trastuzumab (Herceptin)": {
+    "name": "Trastuzumab (Herceptin)",
+    "target": "HER2/neu",
+    "cdrs": {
+      "h3": {
+        "sequence": "WGGDGFYAMDY",
+        "n_mutations": 209,
+        "validation": {
+          "hotspot_avg_rank": 4.75,
+          "hotspot_avg_score": 0.17653213441371918,
+          "non_hotspot_avg_score": 0.13707994988986424,
+          "enrichment": 0.5,
+          "cdr_name": "h3"
+        }
+      }
+    }
+  }
+}
